@@ -1,0 +1,90 @@
+<style>
+		html, body { 
+			         height: 100%; 
+		             margin: 0; 
+		             padding: 0;
+		            }
+		
+		form{ margin:0 }
+		
+		.navbar-inner { 
+			            padding:.5em;
+		                border-radius:0;
+		                -moz-border-radius:0;
+		                }
+		
+		h1 { font-size:18px;}
+		
+		h3 { margin-bottom:.5em; }
+		
+		#googlemaps { height: 92%;}
+		
+		#iw {
+			 width:260px;
+		     font-family:monospace;
+		     }
+		     
+		.navbar {margin:0}
+		
+		img {max-width:none;}
+		
+		hr {margin:5px 0}
+				
+		#status {     height:50px;
+			          width:100px; 
+			          text-align:center; 
+			          font : bold 1em sans-serif;
+		           }
+		           
+		#status.online { background:#00FF00; }
+		#status.offline { background:red; }
+		
+		#log {     background:#C0C0C0; 
+			       border:2px solid black; 
+			       white-space:pre-line;  
+			       font: 1em sans-serif;
+		       }
+	
+		#map_canvas{width:100%; 
+		            height:90%; 
+		            float:left; 
+		            border:1px solid black;}
+	
+		.val{
+				  position: fixed;
+				  top: 10px;
+				  right: 10px;
+				  border-radius: 100px;
+				  display: block;
+				  width: 32px;
+				  height: 32px;
+				  font-size: 14px;
+				  text-align: center;
+				  line-height: 32px;
+				}	
+				
+		.dark{
+				  background-color: #6A5ACD;
+				  color: #FF0000;
+				}
+		.dark .val{
+				  background-color: #fafafa;
+				  color: #1f1f1f;		
+				}
+				
+		.lite{
+				  background-color: #fafafa;
+				  color: #1f1f1f;
+				}
+				
+		.lite .val{
+				  background-color: #006600;
+				  color: #666;		
+				}
+				
+		.intro-img{
+				  max-width: 100%;
+				  height: auto;
+				}
+
+ </style>

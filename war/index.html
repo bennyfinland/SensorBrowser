@@ -1,0 +1,47 @@
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mock Location Sensor</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+       
+<body>
+    <div id="status"><p id="state"/></div>
+	  
+	<div id="val" class="val"></div>
+	
+	<div id="loca"></div> 
+	
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container">
+				<form class="form-inline pull-right" action="#" onsubmit="showAddress(this.address.value); return false">
+				<input type="text" class="input-large search-query" placeholder="Type city, zip or address here.." name="address">
+				<button type="submit" class="btn"><i class="icon-map-marker"></i> Search</button>
+				</form>
+			</div>
+		</div>
+	</div>
+    
+    <div id="googlemaps"></div>     
+ 
+    <!-- -google map js -->
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDKw1I9ZlI-piCBp2zXSuviBDVRjju-aYI&sensor=true&libraries=adsense"> </script>
+    
+     <!-- -main function js -->
+    <script src="functions.js "></script>
+    
+     <!-- -marker animation js -->
+    <script src="ga.js "></script>
+    
+     <!-- -geo position js -->
+    <script src="geoposition.js "></script>
+    
+     <!-- -jquery -->
+    <script src="jquery.min.js"></script>
+    
+    
+
+  </body>
+</html>
