@@ -1,4 +1,3 @@
-
 Mock location demo
 ==========================
 
@@ -11,9 +10,7 @@ Operation environment: Andriod with Mozilla Firefox browser
 
 =====================================================================================================================
 
-The Offline detection demo presents two different ways to log user position. One is for logging
-the user current position when online or offline, the other one provides rich flexibilities for user to
-mock his current position by utilizing key words searching or marker dragging based on google
+The demo for logging the user current position when online or offline, the other one provides rich flexibilities for user to mock his current position by utilizing key words searching or marker dragging based on google
 map. This demo is also allowed the tablet devices to change their own color scheme when the
 light turns dark.
 
