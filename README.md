@@ -1,4 +1,4 @@
-Mock location demo
+Mock location demo (JavaScript)
 ==========================
 
 
