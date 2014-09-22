@@ -4,6 +4,8 @@ Mock location demo
 
 Code poll: SensorBrowser/war/index.html (Eclipse)
 
+JS code poll:  SensorBrowser/war/function.js
+
 Link: http://sensorbrowser.appspot.com/
 
 Operation environment: Andriod with Mozilla Firefox browser
