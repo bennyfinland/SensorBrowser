@@ -4,7 +4,7 @@ Mock location demo
 
 Code poll: SensorBrowser/war/index.html (Eclipse)
 
-JS code poll:  SensorBrowser/war/function.js
+<b>JS code poll:  SensorBrowser/war/function.js</b>
 
 Link: http://sensorbrowser.appspot.com/
 
